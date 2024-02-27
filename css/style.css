@@ -1,0 +1,76 @@
+@media (max-width: 599px) {
+  .header{
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 600px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rrss { 
+    justify-content: space-between;
+  }
+}
+
+/* style.css */
+body{
+  background-color: #000000;
+  font-family: "JetBrains Mono"; 
+  text-align: center;
+}
+  
+
+/* Estilos del header*/
+header { 
+  display: inline-grid;
+  justify-content: space-between;
+
+  align-items: center;
+  color: #fff;
+  padding: 8px;
+}
+
+.logo {
+  width: 150px;
+}
+
+/* Estilos para el video en el main */
+main {
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+
+}
+
+.rrss {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #fff;
+  gap: 4px;
+}
+
+video {
+  display: flex;
+  width: 80%;
+}
+
+
+/* Links */
+a{
+  color: #ffffff;
+} 
+
+/* Listas */
+ul{
+  list-style-type: none; 
+}
+
+li{
+  padding: 4px;
+}
